@@ -36,22 +36,22 @@ class AboutUsPageState extends State<AboutUsPage>{
                   .push(MaterialPageRoute(builder: (context) {
                 return ArticleDetailPage(
                   title: 'WanAndroid_Flutter版',
-                  url: 'https://github.com/canhuah/WanAndroid',
+                  url: 'https://github.com/weixiaomiandui/wan_android_flutter',
                 );
               }));
             },
           ),
           ListTile(
               title: const Text('关于我'),
-              subtitle: const Text('一个Android程序猿,初学Flutter,博客地址是..'),
+              subtitle: const Text('一个前端程序猿,初学Flutter,博客地址是..'),
               trailing: Icon(Icons.chevron_right,
                   color: Theme.of(context).accentColor),
               onTap: () {
                 Navigator.of(context)
                     .push(MaterialPageRoute(builder: (context) {
                   return ArticleDetailPage(
-                    title: 'canhuah的博客',
-                    url: 'http://www.canhuah.com',
+                    title: 'git地址',
+                    url: 'https://github.com/weixiaomiandui/wan_android_flutter',
                   );
                 }));
               }),
